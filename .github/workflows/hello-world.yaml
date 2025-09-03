@@ -31,7 +31,7 @@ jobs:
 
       # Runs our our "Hello world" shell script.
       - name: Runs the "Hello world2" shell script
-        run: ./index.sh
+        run: ./index2.sh
     # This workflow contains a single job called "hello-world"
   hello-world-2:
     needs: hello-world
